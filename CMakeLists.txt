@@ -7,7 +7,6 @@ find_package(PkgConfig)
 #using pkg-config to getting Gstreamer
 pkg_check_modules(GSTREAMER REQUIRED gstreamer-1.0)
 pkg_check_modules(GLIB REQUIRED glib-2.0)
-pkg_check_modules(BEN REQUIRED gstreamer1.0-plugins-base)
 
 #including GStreamer header files directory
 include_directories(
