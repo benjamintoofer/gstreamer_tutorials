@@ -23,8 +23,8 @@ cmake --build .
 GST_PLUGIN_PATH=/usr/local/lib/gstreamer-1.0 ./gstreamer_tutorials
 ```
 
-# TODO
-The application/windowing is not properly initialized for OSX.  
+# OSX Refactor
+The application/windowing was not properly initialized for OSX.  
 Example program should produce the same output as this:
 ```
 ./gst-launch-1.0 -v playbin uri=https://www.freedesktop.org/software/gstreamer-sdk/data/media/sintel_trailer-480p.webm
@@ -34,3 +34,6 @@ Add `GST_DEBUG=1` to see the following message regarding the error.
 ```
 gldisplay gstgldisplay_cocoa.m:175:gst_gl_display_cocoa_setup_nsapp: Custom NSApp initialization failed
 ```
+
+Obj-c++ files were added and compiled with the OSX Cocoa Framework.
+The approach is a bit hacky, and won't kill the app when the window is closed.

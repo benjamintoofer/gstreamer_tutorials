@@ -1,7 +1,13 @@
+#if defined(__APPLE__)
+#include "osx_app.h"
+#endif
 #include <gst/gst.h>
 
 int main(int argc, char *argv[])
 {
+#if defined(__APPLE__) 
+  osx_app_init();
+#endif
   GstElement *pipeline;
   GstBus *bus;
   GstMessage *msg;
@@ -17,11 +23,17 @@ int main(int argc, char *argv[])
   /* Start playing */
   gst_element_set_state(pipeline, GST_STATE_PLAYING);
 
+#if defined(__APPLE__)
+  osx_app_run();
+#else
+
   /* Wait until error or EOS */
   bus = gst_element_get_bus(pipeline);
   msg =
       gst_bus_timed_pop_filtered(bus, GST_CLOCK_TIME_NONE,
                                  GST_MESSAGE_ERROR | GST_MESSAGE_EOS);
+
+#endif
 
   /* Free resources */
   if (msg != NULL)

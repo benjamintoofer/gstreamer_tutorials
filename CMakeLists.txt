@@ -26,7 +26,8 @@ link_directories(
 # )
 
 # add the executable
-add_executable(${PROJECT_NAME} basic_1.c)
+add_executable(${PROJECT_NAME} basic_1.c osx_app.h osx_app.mm)
+target_link_libraries(${PROJECT_NAME} "-framework Cocoa")
 
 target_link_libraries(${PROJECT_NAME} ${GSTREAMER_LIBRARIES} ${GLIB_LIBRARIES})
 
