@@ -1,7 +1,0 @@
-/Users/benjamintoofer/Developer/gstreamer_tutorials/build/CMakeFiles/gstreamer_tutorials.dir
-/Users/benjamintoofer/Developer/gstreamer_tutorials/build/CMakeFiles/edit_cache.dir
-/Users/benjamintoofer/Developer/gstreamer_tutorials/build/CMakeFiles/rebuild_cache.dir
-/Users/benjamintoofer/Developer/gstreamer_tutorials/build/CMakeFiles/list_install_components.dir
-/Users/benjamintoofer/Developer/gstreamer_tutorials/build/CMakeFiles/install.dir
-/Users/benjamintoofer/Developer/gstreamer_tutorials/build/CMakeFiles/install/local.dir
-/Users/benjamintoofer/Developer/gstreamer_tutorials/build/CMakeFiles/install/strip.dir
