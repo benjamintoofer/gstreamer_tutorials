@@ -81,12 +81,12 @@ clean: CMakeFiles/gstreamer_tutorials.dir/clean
 CMakeFiles/gstreamer_tutorials.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gstreamer_tutorials.dir/build.make CMakeFiles/gstreamer_tutorials.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gstreamer_tutorials.dir/build.make CMakeFiles/gstreamer_tutorials.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/benjamintoofer/Developer/gstreamer_tutorials/build/CMakeFiles --progress-num=1,2 "Built target gstreamer_tutorials"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/benjamintoofer/Developer/gstreamer_tutorials/build/CMakeFiles --progress-num=1,2,3 "Built target gstreamer_tutorials"
 .PHONY : CMakeFiles/gstreamer_tutorials.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gstreamer_tutorials.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/benjamintoofer/Developer/gstreamer_tutorials/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/benjamintoofer/Developer/gstreamer_tutorials/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gstreamer_tutorials.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/benjamintoofer/Developer/gstreamer_tutorials/build/CMakeFiles 0
 .PHONY : CMakeFiles/gstreamer_tutorials.dir/rule

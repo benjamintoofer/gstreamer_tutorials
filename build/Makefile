@@ -174,29 +174,53 @@ gstreamer_tutorials/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gstreamer_tutorials.dir/build.make CMakeFiles/gstreamer_tutorials.dir/build
 .PHONY : gstreamer_tutorials/fast
 
-basic_1.o: basic_1.c.o
-.PHONY : basic_1.o
+basic_2.o: basic_2.c.o
+.PHONY : basic_2.o
 
 # target to build an object file
-basic_1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gstreamer_tutorials.dir/build.make CMakeFiles/gstreamer_tutorials.dir/basic_1.c.o
-.PHONY : basic_1.c.o
+basic_2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gstreamer_tutorials.dir/build.make CMakeFiles/gstreamer_tutorials.dir/basic_2.c.o
+.PHONY : basic_2.c.o
 
-basic_1.i: basic_1.c.i
-.PHONY : basic_1.i
+basic_2.i: basic_2.c.i
+.PHONY : basic_2.i
 
 # target to preprocess a source file
-basic_1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gstreamer_tutorials.dir/build.make CMakeFiles/gstreamer_tutorials.dir/basic_1.c.i
-.PHONY : basic_1.c.i
+basic_2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gstreamer_tutorials.dir/build.make CMakeFiles/gstreamer_tutorials.dir/basic_2.c.i
+.PHONY : basic_2.c.i
 
-basic_1.s: basic_1.c.s
-.PHONY : basic_1.s
+basic_2.s: basic_2.c.s
+.PHONY : basic_2.s
 
 # target to generate assembly for a file
-basic_1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gstreamer_tutorials.dir/build.make CMakeFiles/gstreamer_tutorials.dir/basic_1.c.s
-.PHONY : basic_1.c.s
+basic_2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gstreamer_tutorials.dir/build.make CMakeFiles/gstreamer_tutorials.dir/basic_2.c.s
+.PHONY : basic_2.c.s
+
+osx_app.o: osx_app.mm.o
+.PHONY : osx_app.o
+
+# target to build an object file
+osx_app.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gstreamer_tutorials.dir/build.make CMakeFiles/gstreamer_tutorials.dir/osx_app.mm.o
+.PHONY : osx_app.mm.o
+
+osx_app.i: osx_app.mm.i
+.PHONY : osx_app.i
+
+# target to preprocess a source file
+osx_app.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gstreamer_tutorials.dir/build.make CMakeFiles/gstreamer_tutorials.dir/osx_app.mm.i
+.PHONY : osx_app.mm.i
+
+osx_app.s: osx_app.mm.s
+.PHONY : osx_app.s
+
+# target to generate assembly for a file
+osx_app.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gstreamer_tutorials.dir/build.make CMakeFiles/gstreamer_tutorials.dir/osx_app.mm.s
+.PHONY : osx_app.mm.s
 
 # Help Target
 help:
@@ -211,9 +235,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... gstreamer_tutorials"
-	@echo "... basic_1.o"
-	@echo "... basic_1.i"
-	@echo "... basic_1.s"
+	@echo "... basic_2.o"
+	@echo "... basic_2.i"
+	@echo "... basic_2.s"
+	@echo "... osx_app.o"
+	@echo "... osx_app.i"
+	@echo "... osx_app.s"
 .PHONY : help
 
 

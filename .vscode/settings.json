@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "stdio.h": "c",
+    "gst.h": "c",
+    "glib.h": "c",
+    "gmacros.h": "c"
+  }
+}

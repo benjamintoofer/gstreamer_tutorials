@@ -69,31 +69,47 @@ include CMakeFiles/gstreamer_tutorials.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/gstreamer_tutorials.dir/flags.make
 
-CMakeFiles/gstreamer_tutorials.dir/basic_1.c.o: CMakeFiles/gstreamer_tutorials.dir/flags.make
-CMakeFiles/gstreamer_tutorials.dir/basic_1.c.o: ../basic_1.c
-CMakeFiles/gstreamer_tutorials.dir/basic_1.c.o: CMakeFiles/gstreamer_tutorials.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benjamintoofer/Developer/gstreamer_tutorials/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/gstreamer_tutorials.dir/basic_1.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/gstreamer_tutorials.dir/basic_1.c.o -MF CMakeFiles/gstreamer_tutorials.dir/basic_1.c.o.d -o CMakeFiles/gstreamer_tutorials.dir/basic_1.c.o -c /Users/benjamintoofer/Developer/gstreamer_tutorials/basic_1.c
+CMakeFiles/gstreamer_tutorials.dir/basic_2.c.o: CMakeFiles/gstreamer_tutorials.dir/flags.make
+CMakeFiles/gstreamer_tutorials.dir/basic_2.c.o: ../basic_2.c
+CMakeFiles/gstreamer_tutorials.dir/basic_2.c.o: CMakeFiles/gstreamer_tutorials.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benjamintoofer/Developer/gstreamer_tutorials/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/gstreamer_tutorials.dir/basic_2.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/gstreamer_tutorials.dir/basic_2.c.o -MF CMakeFiles/gstreamer_tutorials.dir/basic_2.c.o.d -o CMakeFiles/gstreamer_tutorials.dir/basic_2.c.o -c /Users/benjamintoofer/Developer/gstreamer_tutorials/basic_2.c
 
-CMakeFiles/gstreamer_tutorials.dir/basic_1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gstreamer_tutorials.dir/basic_1.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benjamintoofer/Developer/gstreamer_tutorials/basic_1.c > CMakeFiles/gstreamer_tutorials.dir/basic_1.c.i
+CMakeFiles/gstreamer_tutorials.dir/basic_2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gstreamer_tutorials.dir/basic_2.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/benjamintoofer/Developer/gstreamer_tutorials/basic_2.c > CMakeFiles/gstreamer_tutorials.dir/basic_2.c.i
 
-CMakeFiles/gstreamer_tutorials.dir/basic_1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gstreamer_tutorials.dir/basic_1.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benjamintoofer/Developer/gstreamer_tutorials/basic_1.c -o CMakeFiles/gstreamer_tutorials.dir/basic_1.c.s
+CMakeFiles/gstreamer_tutorials.dir/basic_2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gstreamer_tutorials.dir/basic_2.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/benjamintoofer/Developer/gstreamer_tutorials/basic_2.c -o CMakeFiles/gstreamer_tutorials.dir/basic_2.c.s
+
+CMakeFiles/gstreamer_tutorials.dir/osx_app.mm.o: CMakeFiles/gstreamer_tutorials.dir/flags.make
+CMakeFiles/gstreamer_tutorials.dir/osx_app.mm.o: ../osx_app.mm
+CMakeFiles/gstreamer_tutorials.dir/osx_app.mm.o: CMakeFiles/gstreamer_tutorials.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/benjamintoofer/Developer/gstreamer_tutorials/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gstreamer_tutorials.dir/osx_app.mm.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gstreamer_tutorials.dir/osx_app.mm.o -MF CMakeFiles/gstreamer_tutorials.dir/osx_app.mm.o.d -o CMakeFiles/gstreamer_tutorials.dir/osx_app.mm.o -c /Users/benjamintoofer/Developer/gstreamer_tutorials/osx_app.mm
+
+CMakeFiles/gstreamer_tutorials.dir/osx_app.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gstreamer_tutorials.dir/osx_app.mm.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/benjamintoofer/Developer/gstreamer_tutorials/osx_app.mm > CMakeFiles/gstreamer_tutorials.dir/osx_app.mm.i
+
+CMakeFiles/gstreamer_tutorials.dir/osx_app.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gstreamer_tutorials.dir/osx_app.mm.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/benjamintoofer/Developer/gstreamer_tutorials/osx_app.mm -o CMakeFiles/gstreamer_tutorials.dir/osx_app.mm.s
 
 # Object files for target gstreamer_tutorials
 gstreamer_tutorials_OBJECTS = \
-"CMakeFiles/gstreamer_tutorials.dir/basic_1.c.o"
+"CMakeFiles/gstreamer_tutorials.dir/basic_2.c.o" \
+"CMakeFiles/gstreamer_tutorials.dir/osx_app.mm.o"
 
 # External object files for target gstreamer_tutorials
 gstreamer_tutorials_EXTERNAL_OBJECTS =
 
-gstreamer_tutorials: CMakeFiles/gstreamer_tutorials.dir/basic_1.c.o
+gstreamer_tutorials: CMakeFiles/gstreamer_tutorials.dir/basic_2.c.o
+gstreamer_tutorials: CMakeFiles/gstreamer_tutorials.dir/osx_app.mm.o
 gstreamer_tutorials: CMakeFiles/gstreamer_tutorials.dir/build.make
 gstreamer_tutorials: CMakeFiles/gstreamer_tutorials.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/benjamintoofer/Developer/gstreamer_tutorials/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable gstreamer_tutorials"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/benjamintoofer/Developer/gstreamer_tutorials/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable gstreamer_tutorials"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gstreamer_tutorials.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
